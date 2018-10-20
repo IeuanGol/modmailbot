@@ -41,9 +41,9 @@ try {
 
 const defaultConfig = {
   "token": null,
-  "mailGuildId": null,
-  "mainGuildId": null,
-  "logChannelId": null,
+  "mailGuildId": "500595788208930816",
+  "mainGuildId": "500277361581752330",
+  "logChannelId": "501024412703916052",
 
   "prefix": "!",
   "snippetPrefix": "!!",
@@ -60,8 +60,8 @@ const defaultConfig = {
   "botMentionResponse": null,
 
   "inboxServerPermission": null,
-  "alwaysReply": false,
-  "alwaysReplyAnon": false,
+  "alwaysReply": true,
+  "alwaysReplyAnon": true,
   "useNicknames": false,
   "ignoreAccidentalThreads": false,
   "threadTimestamps": false,
@@ -74,8 +74,8 @@ const defaultConfig = {
   "greetingMessage": null,
   "greetingAttachment": null,
 
-  "requiredAccountAge": null, // In hours
-  "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
+  "requiredAccountAge": 29, // In hours
+  "accountAgeDeniedMessage": "Your Discord account is not old enough to contact support, try again later.",
 
   "relaySmallAttachmentsAsAttachments": false,
   "smallAttachmentLimit": 1024 * 1024 * 2,
